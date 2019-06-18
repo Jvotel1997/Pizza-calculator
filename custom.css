@@ -1,0 +1,91 @@
+body {
+    background-color: #a52a2a;
+}
+
+h3 {
+    margin: 0;
+}
+
+span.nend {
+    position: absolute;
+    right: 0;
+}
+
+.jagged:after {
+    content: " ";
+    display:block;
+    height:20px;
+    background: linear-gradient(#a52a2a 0%, transparent 0%), linear-gradient(135deg, #272220 33.33%, transparent 33.33%) 0 0%, #272220 linear-gradient(45deg, #272220 33.33%, #a52a2a 33.33%) 0 0%;
+    background: -webkit-linear-gradient(#a52a2a 0%, transparent 0%), -webkit-linear-gradient(135deg, #dedede 33.33%, transparent 33.33%) 0 0%, #dedede -webkit-linear-gradient(45deg, #dedede 33.33%, #a52a2a 33.33%) 0 0%;
+    background: -o-linear-gradient(#a52a2a 0%, transparent 0%), -o-linear-gradient(135deg, #dedede 33.33%, transparent 33.33%) 0 0%, #dedede -o-linear-gradient(45deg, #dedede 33.33%, #a52a2a 33.33%) 0 0%;
+    background: -moz-linear-gradient(#a52a2a 0%, transparent 0%), -moz-linear-gradient(135deg, #dedede 33.33%, transparent 33.33%) 0 0%, #dedede -moz-linear-gradient(45deg, #dedede 33.33%, #a52a2a 33.33%) 0 0%;
+    background-repeat: repeat-x;
+    background-size: 0px 100%, 9px 27px, 9px 27px;
+}
+
+.basket-header {
+    background: #dedede;
+    padding: 10px 20px 10px;
+    border-left: 1px solid #c5c5c5;
+    border-right: 1px solid #c5c5c5;
+}
+
+.order-layout .order-layout-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    bottom: 0;
+    z-index: 999;
+    pointer-events: none;
+    width: 278px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+#staticBasket {
+    top: 10px;
+    width: 252px;
+}
+
+#basket {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    top: initial;
+    bottom: initial;
+    left: auto;
+    right: auto;
+    height: auto;
+    clear: none;
+    max-height: none;
+    z-index: 1000;
+    pointer-events: auto;
+    background: #fff;
+    padding: 10px 10px 62px 10px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+#basket-body {
+    margin: 10px 0 60px 0;
+    padding: 10px;
+    font-size: medium;
+    color: #292525;
+    position: relative;
+}
+
+#total-container {
+    border-bottom: 1px dotted #000;
+    margin: 0 10px;
+    padding: 10px 0;
+    font-size: 1.5em;
+}
+
+#total-amount {
+    float: right;
+    color: #006991;
+}

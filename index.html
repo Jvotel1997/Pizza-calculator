@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>demo</title>
+	<link rel="stylesheet" href="custom.css">
+</head>
+<body>
+<main id="content" class="order-layout">
+	<section>
+		<button onclick="AddToCart(0)">Pepperoni - €3,50</button>
+		<button onclick="AddToCart(1)">Hawaii - €3,25</button>
+		<button onclick="AddToCart(2)">BBQ Mixed-Grill - €3,75</button>
+	</section>
+	<section id="basketContainer" class="order-layout-right order-details">
+		<div id="staticBasket" class="basket">
+			<div class="jagged"></div>
+			<div class="basket-header">
+				<h3 id="order-cart-heading">Bestelling</h3>
+			</div>
+			<div id="basket">
+				<div id="basket-body"></div>
+				<div id="total-container">
+					<span>TOTAAL</span>
+					<span id="total-amount">€0,00</span>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+</body>
+<script src="pizza.js"></script>
+</html>
